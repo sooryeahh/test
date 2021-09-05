@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ol li{
+            color:white;;
+            background-color: black;
+            transition: 1s ease;
+        }
+        body.dark li:hover{
+            color:tomato;
+            background-color: yellow;
+            cursor:pointer;
+            font-size:30px;
+            visibility:none;
+        }
+        @media(min-width:600px){
+            div{
+            font-size: 30px;
+            width:400px;
+            height:600px;
+            background-color: red;
+        }
+        @media(min-width:768 max-width:1024){
+
+        }
+        }
+        
+    </style>
+</head>
+<body class="dark">
+    
+    <ol>
+        <li>Lorem</li>
+        <li>
+            <ul>
+
+            <li>Nested</li>
+            <li>Nested</li>
+            <li>Nested</li>
+            <li>Nested</li>
+
+            </ul>
+            
+
+        </li>
+        <li>Lorem</li>
+    </ol>
+    <div class="dolor">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nisi, veritatis non distinctio quasi fugit doloribus corporis, id mollitia aspernatur ratione, voluptas iure nobis veniam. Cum modi expedita magni suscipit, vel nisi.
+         Sequi est totam consequatur dolor cupiditate, delectus eius.
+    </div>
+
+    <b> 768</b> <b>1024</b> <b>1280</b>
+    <ul>
+        <li>Before 768px : background cyan</li>
+        <li>Between 768-1024 : background red</li>
+        <li>Between 1024-1280 : background red</li>
+        
+        
+        
+    </ul>
+
+    
+</body>
+</html>

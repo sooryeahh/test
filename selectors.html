@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ol.good li{
+            color:#ffbf00;
+        }
+        ol.green li{
+            color:lime;
+        }
+        ol.good li.bold{
+            font-weight:900;
+            color:darkgoldenrod;
+        }
+        ol.green li.something{
+            color:darkorange;
+        }
+        ol.green li:nth-child(1){
+            color:darksalmon;
+        }
+       body.dark div{
+            box-sizing: border-box;
+            background-color: black;
+            color:white;
+            padding:20px;
+            margin:20px;
+        }
+        body{
+            background-color: #ffff;
+        }
+        body.dark{
+            background-color: black;
+        }
+    </style>
+</head>
+<body class="dark">
+    <ol class="good">
+        <li>Lorem, ipsum dolor.</li>
+        <li class="bold">Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+
+    </ol>
+    <ol class="green">
+        <li>Lorem, ipsum dolor.</li>
+        <li class="something">Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+
+    </ol> 
+
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nemo. Officiis aliquam sint, delectus provident harum velit excepturi repudiandae blanditiis, magni suscipit, 
+        recusandae natus. Dignissimos, earum. Nemo assumenda amet accusantium?</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nemo. Officiis aliquam sint, delectus provident harum velit excepturi repudiandae blanditiis, magni suscipit, 
+            recusandae natus. Dignissimos, earum. Nemo assumenda amet accusantium?</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nemo. Officiis aliquam sint, delectus provident harum velit excepturi repudiandae blanditiis, magni suscipit, 
+                recusandae natus. Dignissimos, earum. Nemo assumenda amet accusantium?</div>
+</body>
+</html>
